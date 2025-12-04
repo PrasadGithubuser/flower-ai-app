@@ -1,85 +1,88 @@
 # flower-ai-app
 🌸 AI Flower Classifier Using Deep Learning
 
-This project is an AI-based Flower Classification App built using Deep Learning and Transfer Learning.
+  This project is an AI-based Flower Classification App built using Deep Learning and Transfer Learning.
 
-It can identify the type of flower from an uploaded image using a trained neural network model.
+  It can identify the type of flower from an uploaded image using a trained neural network model.
 
 🚀 What this project does
 
-The app can classify flower images into the following categories:
+  The app can classify flower images into the following categories:
 
-🌼 Daisy
+  🌼 Daisy
 
-🌻 Dandelion
+  🌻 Dandelion
 
-🌹 Roses
+  🌹 Roses
 
-🌻 Sunflowers
+  🌻 Sunflowers
 
-🌷 Tulips
+  🌷 Tulips
 
 You upload a photo, and the model predicts:
-✅ Flower name
-✅ Confidence score
+  ✅ Flower name
+  ✅ Confidence score
 
 🧠 How it works (Simple Explanation)
 
-A pretrained AI model (MobileNetV2) is used (Transfer Learning).
+  A pretrained AI model (MobileNetV2) is used (Transfer Learning).
 
-The model is retrained using a flower dataset from TensorFlow.
+  The model is retrained using a flower dataset from TensorFlow.
 
 The AI learns patterns like:
 
-color
+  color
 
-shape
+  shape
 
-petals
+  petals
 
-edges
+  edges
 
-texture
+  texture
 
-A web app (Streamlit) is used to show predictions on a user interface.
+  A web app (Streamlit) is used to show predictions on a user interface.
 
 🏗️ Technologies Used
 
-Python 🐍
+  Python 🐍
 
-TensorFlow / Keras
+  TensorFlow / Keras
 
-Transfer Learning
+  Transfer Learning
 
-CNN (Convolutional Neural Network)
+  CNN (Convolutional Neural Network)
 
-Streamlit (Web UI)
+  Streamlit (Web UI)
 
 GitHub (Version Control)
 
 📂 Project Files
-File	Purpose
-app.py	Runs the web interface
-flower_train.py	Trains the AI model
-flower_classifier.h5	The trained AI model
-requirements.txt	Required libraries
-▶️ How to Run
-1. Install dependencies
-pip install -r requirements.txt
+| File                   | Purpose                |
+| ---------------------- | ---------------------- |
+| `app.py`               | Runs the web interface |
+| `flower_train.py`      | Trains the AI model    |
+| `flower_classifier.h5` | The trained AI model   |
+| `requirements.txt`     | Required libraries     |
 
-2. Run the app
-streamlit run app.py
+
+▶️ How to Run
+  1. Install dependencies
+    pip install -r requirements.txt
+
+  2. Run the app
+    streamlit run app.py
 
 🎯 Purpose of this project
 
 This project is built for:
 
-Learning AI and Deep Learning
+  Learning AI and Deep Learning
 
-Understanding Transfer Learning
+  Understanding Transfer Learning
 
-Prakticing Deployment with Streamlit
+  Practicing Deployment with Streamlit
 
-Building real-world ML experience
+  Building real-world ML experience
 
-It is not a production-level app but a learning project for growth.
+  It is not a production-level app but a learning project for growth.
